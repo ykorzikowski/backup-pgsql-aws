@@ -1,6 +1,6 @@
 FROM ykorzikowski/backup-pgsql
 
-ENV S3=s3://mybucket/
+ENV S3='s3://mybucket/'
 ENV PGHOST='localhost:5432'
 ENV PGDATABASE='postgres'
 ENV PGUSER='postgres@postgres'

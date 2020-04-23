@@ -3,7 +3,7 @@ https://docs.aws.amazon.com/de_de/cli/latest/userguide/cli-configure-envvars.htm
 ```
 Set following environment variables:
 
-S3=''
+S3='s3://mybucket/'
 PGHOST='localhost:5432'
 PGDATABASE='postgres'
 PGUSER='postgres@postgres'
