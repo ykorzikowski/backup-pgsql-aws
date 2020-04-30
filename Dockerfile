@@ -13,7 +13,7 @@ RUN apk add --update \
     python-dev \
     py-pip \
     build-base \
-    && pip install awscli==$AWSCLI_VERSION --upgrade --user \
+    && pip install awscli==$AWSCLI_VERSION --upgrade\
     && apk --purge -v del py-pip \
     && rm -rf /var/cache/apk/*
 
