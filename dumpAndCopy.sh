@@ -1,4 +1,5 @@
 #!/bin/bash
+set -eux
 
 ./dumpDatabase.sh
 if [ $? -ne 1 ]; then
