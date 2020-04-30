@@ -19,4 +19,6 @@ RUN apk add --update \
 
 COPY ./dumpAndCopy.sh .
 
+RUN chmod 755 dumpAndCopy.sh
+
 CMD [ "./dumpAndCopy.sh" ]
